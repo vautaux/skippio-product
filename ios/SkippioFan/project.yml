@@ -1,0 +1,78 @@
+name: SkippioFan
+options:
+  minimumXcodeGenVersion: 2.38.0
+configs:
+  Debug: debug
+  Release: release
+settings:
+  base:
+    PRODUCT_BUNDLE_IDENTIFIER: com.mohammadnaimi.skippiodemo
+    DEVELOPMENT_TEAM: QNMJH73H6Y
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    SWIFT_VERSION: "5.10"
+targets:
+  SkippioFan:
+    type: application
+    platform: iOS
+    sources:
+      - path: SkippioFan
+      - path: SkippioFanShared
+    resources:
+      - path: SkippioFan/Resources
+    settings:
+      base:
+        INFOPLIST_FILE: SkippioFan/Info.plist
+        PRODUCT_NAME: SkippioDemo
+        INFOPLIST_KEY_CFBundleDisplayName: SkippioDemo
+    configFiles:
+      Debug: Config/Debug.xcconfig
+      Release: Config/Release.xcconfig
+    dependencies:
+      - package: Supabase
+      - target: SkippioFanWidgets
+        embed: true
+    entitlements:
+      path: SkippioFan/SkippioFan.entitlements
+  SkippioFanWidgets:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: SkippioFanWidgets
+      - path: SkippioFanShared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mohammadnaimi.skippiodemo.widgets
+        INFOPLIST_FILE: SkippioFanWidgets/Info.plist
+        PRODUCT_NAME: SkippioDemoWidgets
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks"
+        SKIP_INSTALL: YES
+    entitlements:
+      path: SkippioFanWidgets/SkippioFanWidgets.entitlements
+  SkippioFanUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: SkippioFanUITests
+    dependencies:
+      - target: SkippioFan
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mohammadnaimi.skippiodemo.uitests
+        TEST_TARGET_NAME: SkippioFan
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  SkippioFan:
+    build:
+      targets:
+        SkippioFan: all
+        SkippioFanWidgets: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - SkippioFanUITests
+packages:
+  Supabase:
+    url: https://github.com/supabase/supabase-swift.git
+    from: 2.12.0

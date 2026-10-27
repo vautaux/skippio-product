@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0355BCABA6910E6F0FEF39DE /* SupabaseClientProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB351B70599FB09B6B14587 /* SupabaseClientProvider.swift */; };
+		07F42B5D51515D07AC9622CE /* FanJourneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D953E149F9F9ACD234817E /* FanJourneyUITests.swift */; };
+		09BA2DB49695A5C8C20535CD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6A6A409EAEE9F871E25108 /* HomeView.swift */; };
+		0FA05AF97B0EE5286B19869D /* ImageCreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC145D09469B2E94E9B8B7F /* ImageCreditsView.swift */; };
+		2C9AE1334E31A70EB9F262A6 /* RestaurantSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E268F277B50D2198D62F0539 /* RestaurantSheets.swift */; };
+		31F311D82293AB88EF52B35E /* SkippioFanWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 007C09BDD247FD4F66A254F4 /* SkippioFanWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3D16D0768D750A877A63ACD5 /* VenueComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39602FD4FCADCE6329585554 /* VenueComponents.swift */; };
+		4129B3EC59E5DBCEC2E43A51 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961D39633BA7069134733CA5 /* CartView.swift */; };
+		4DCFE55F5F4391AC3A7BA1ED /* VenueMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7C27543A725CEBA47E627B /* VenueMapView.swift */; };
+		53D16697A1B53747B6D3D5B9 /* AuthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458AD1DEB979DA85A515747 /* AuthStore.swift */; };
+		5B2CD0E17A75F466D75154C4 /* FavouritesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCE56583B39937C510F7E3F /* FavouritesStore.swift */; };
+		5C3BF13AC2C49B6C4976C4DA /* SkippioFanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D14B198E922B56DF70C802F /* SkippioFanApp.swift */; };
+		5D75C84C35D6A92864DA4DC1 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F8C9D8AC4D9214F8D555C /* LocationProvider.swift */; };
+		6D962382FA04E024DB168230 /* OrderActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2709E728A2141A93FDF2DC /* OrderActivityAttributes.swift */; };
+		6F177887A98DE6F24B5CEEA7 /* SourceSans3-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CFDB0804DCB4C55BE7D9C64 /* SourceSans3-Bold.ttf */; };
+		7B7E8560113BBF63E33AC450 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF837C4C841829147238EE0 /* ProfileView.swift */; };
+		7EC6E7452C0780A103BCF702 /* OrderActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2709E728A2141A93FDF2DC /* OrderActivityAttributes.swift */; };
+		80169ED4EB074EA7F46EAA28 /* Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1931FCB8449617423D447744 /* Repositories.swift */; };
+		86B5D04675AD89AB4A89657B /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75344B1A52B56803E9D62172 /* OrdersView.swift */; };
+		936BC0544E847AB3D3A81CAA /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438499CE1A55ACDD258526A7 /* Models.swift */; };
+		A03C57AC444375E1FD470B66 /* CartStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB035C857A1F61BF743F0AA /* CartStore.swift */; };
+		A31321A8E67A61711A963504 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543377F0C71F196F06DA1E11 /* AppTheme.swift */; };
+		A9930C0EC0B15BC2AD64E7DF /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E9891FB5FB81B3D55929CB /* RewardsView.swift */; };
+		AB1F71094C9DDEF7F9A728AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF116ED5754238D8FDC4E02E /* Assets.xcassets */; };
+		AC75D392808FB2CC4675F1A5 /* SkippioFanWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63442D584E0F0263AE44EF0B /* SkippioFanWidgetsBundle.swift */; };
+		BB70248E9A5D2D85A0926F2C /* OptionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767D3045239AA17783F4F664 /* OptionSheet.swift */; };
+		C74990D4447DB4E7DAAF1CB7 /* OrderLiveActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E775D8C33C47D1F1D6B6B55 /* OrderLiveActivityController.swift */; };
+		C98F0CCAA9056431552D4BA5 /* OrderLiveActivityWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4236B38B09510035CAA2A /* OrderLiveActivityWidget.swift */; };
+		CA77106616CE4BD93A359112 /* SourceSans3-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10190F71EA068D812A16DD99 /* SourceSans3-Black.ttf */; };
+		CE18F043F094DDE3A912C21A /* CheckoutCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1991832467256471C7A06CD /* CheckoutCoordinator.swift */; };
+		D08E9B584688C3C8D1E30782 /* SourceSans3-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 620AF09B2E81846B1968DB81 /* SourceSans3-Semibold.ttf */; };
+		DAE19199B850EB0177BC1C26 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 44567BD8BD6360A2A8A1AFDC /* Supabase */; };
+		DCE6EC574FC17698BFBDA696 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B8B2E32220AD81A4E51BC0 /* AuthView.swift */; };
+		E30DCA1A48A65FE99C082AF7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3B26162493C01098A9AB5BC1 /* README.md */; };
+		F4C0690B203248546FDD2A41 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95069374B1494943A6093A76 /* MenuView.swift */; };
+		FC37B129467278023D2ADC67 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58577C932BBB198E8D1CC159 /* RootTabView.swift */; };
+		FF3E59644F0BD52214A3870D /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA76DF3D3720868660B5FEAE /* OFL.txt */; };
+		FFB9194FDC4D5E5D5645BE51 /* SourceSans3-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D02E5B9861E5E93E3009D134 /* SourceSans3-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36C6AF1C57443CBD56CFA984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D0EB20C97C8A746209750A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37A1E13F66578683E8A3F3A1;
+			remoteInfo = SkippioFan;
+		};
+		37877841B6CD0E30E3E49ADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D0EB20C97C8A746209750A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F02155F44FE49513C8C9C440;
+			remoteInfo = SkippioFanWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D67EE0EF1A3AA957CCF31EDE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				31F311D82293AB88EF52B35E /* SkippioFanWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		007C09BDD247FD4F66A254F4 /* SkippioFanWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = SkippioFanWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		10190F71EA068D812A16DD99 /* SourceSans3-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSans3-Black.ttf"; sourceTree = "<group>"; };
+		1931FCB8449617423D447744 /* Repositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositories.swift; sourceTree = "<group>"; };
+		1A82B2BC1EE595ABA94C6FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1BB351B70599FB09B6B14587 /* SupabaseClientProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseClientProvider.swift; sourceTree = "<group>"; };
+		1D14B198E922B56DF70C802F /* SkippioFanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkippioFanApp.swift; sourceTree = "<group>"; };
+		39602FD4FCADCE6329585554 /* VenueComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueComponents.swift; sourceTree = "<group>"; };
+		3B26162493C01098A9AB5BC1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		438499CE1A55ACDD258526A7 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		45630321282366339D1A281D /* SkippioFan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SkippioFan.entitlements; sourceTree = "<group>"; };
+		467F8C9D8AC4D9214F8D555C /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
+		47B8B2E32220AD81A4E51BC0 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		4CFDB0804DCB4C55BE7D9C64 /* SourceSans3-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSans3-Bold.ttf"; sourceTree = "<group>"; };
+		51EEB2ED357E55A47BF2C867 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		543377F0C71F196F06DA1E11 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		58577C932BBB198E8D1CC159 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		5E775D8C33C47D1F1D6B6B55 /* OrderLiveActivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderLiveActivityController.swift; sourceTree = "<group>"; };
+		620AF09B2E81846B1968DB81 /* SourceSans3-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSans3-Semibold.ttf"; sourceTree = "<group>"; };
+		63442D584E0F0263AE44EF0B /* SkippioFanWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkippioFanWidgetsBundle.swift; sourceTree = "<group>"; };
+		678A7F346759E355CC89A746 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		68D953E149F9F9ACD234817E /* FanJourneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanJourneyUITests.swift; sourceTree = "<group>"; };
+		71E9891FB5FB81B3D55929CB /* RewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsView.swift; sourceTree = "<group>"; };
+		72338112BAF6495068C140DD /* SkippioFanUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SkippioFanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F4236B38B09510035CAA2A /* OrderLiveActivityWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderLiveActivityWidget.swift; sourceTree = "<group>"; };
+		7458AD1DEB979DA85A515747 /* AuthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStore.swift; sourceTree = "<group>"; };
+		75344B1A52B56803E9D62172 /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
+		767D3045239AA17783F4F664 /* OptionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionSheet.swift; sourceTree = "<group>"; };
+		7AC3B24C33297BA15E569BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		95069374B1494943A6093A76 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		961D39633BA7069134733CA5 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		AA76DF3D3720868660B5FEAE /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		AD2709E728A2141A93FDF2DC /* OrderActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderActivityAttributes.swift; sourceTree = "<group>"; };
+		BBF837C4C841829147238EE0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		BE7C27543A725CEBA47E627B /* VenueMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueMapView.swift; sourceTree = "<group>"; };
+		BF116ED5754238D8FDC4E02E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFB035C857A1F61BF743F0AA /* CartStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartStore.swift; sourceTree = "<group>"; };
+		C1991832467256471C7A06CD /* CheckoutCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutCoordinator.swift; sourceTree = "<group>"; };
+		D02E5B9861E5E93E3009D134 /* SourceSans3-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSans3-Regular.ttf"; sourceTree = "<group>"; };
+		D25C055108E0ADB926642142 /* SkippioFanWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SkippioFanWidgets.entitlements; sourceTree = "<group>"; };
+		E268F277B50D2198D62F0539 /* RestaurantSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantSheets.swift; sourceTree = "<group>"; };
+		EE6A6A409EAEE9F871E25108 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F766C475C09BF57A51239931 /* SkippioFan.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SkippioFan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC145D09469B2E94E9B8B7F /* ImageCreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCreditsView.swift; sourceTree = "<group>"; };
+		FFCE56583B39937C510F7E3F /* FavouritesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4118263981C0E862946A1276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE19199B850EB0177BC1C26 /* Supabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09EFC32CA1866C8E397A7DB0 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				7458AD1DEB979DA85A515747 /* AuthStore.swift */,
+				FFCE56583B39937C510F7E3F /* FavouritesStore.swift */,
+				467F8C9D8AC4D9214F8D555C /* LocationProvider.swift */,
+				1931FCB8449617423D447744 /* Repositories.swift */,
+				1BB351B70599FB09B6B14587 /* SupabaseClientProvider.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		0C86ABCC90B98DD58CDA3DB3 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				BE7C27543A725CEBA47E627B /* VenueMapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		10AA256D56921C87C0659610 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				BFB035C857A1F61BF743F0AA /* CartStore.swift */,
+				961D39633BA7069134733CA5 /* CartView.swift */,
+				C1991832467256471C7A06CD /* CheckoutCoordinator.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		199D8669A3D1B8FE71A8EDC0 /* Rewards */ = {
+			isa = PBXGroup;
+			children = (
+				71E9891FB5FB81B3D55929CB /* RewardsView.swift */,
+			);
+			path = Rewards;
+			sourceTree = "<group>";
+		};
+		1AEDA1DFA06EE65B064FFC9F /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				438499CE1A55ACDD258526A7 /* Models.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		1D5E2EF175A8D6557DA29999 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				678A7F346759E355CC89A746 /* Debug.xcconfig */,
+				51EEB2ED357E55A47BF2C867 /* Release.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		287B854D27E3A29C43526137 /* SkippioFan */ = {
+			isa = PBXGroup;
+			children = (
+				7AC3B24C33297BA15E569BD3 /* Info.plist */,
+				45630321282366339D1A281D /* SkippioFan.entitlements */,
+				BF2024702BD0EE994F061CE1 /* App */,
+				1AEDA1DFA06EE65B064FFC9F /* Domain */,
+				6A4E5DD5A277A81F76C72F4E /* Features */,
+				09EFC32CA1866C8E397A7DB0 /* Infrastructure */,
+				A78BCA9B8A1347AE741130DB /* Resources */,
+				8F9178718AC8DC20A94946DD /* UI */,
+			);
+			path = SkippioFan;
+			sourceTree = "<group>";
+		};
+		327E001F960B03144A1C2020 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				5E775D8C33C47D1F1D6B6B55 /* OrderLiveActivityController.swift */,
+				75344B1A52B56803E9D62172 /* OrdersView.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		41C036FF29A304F10B328652 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				39602FD4FCADCE6329585554 /* VenueComponents.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		616290E6396C674C875F876C /* SkippioFanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68D953E149F9F9ACD234817E /* FanJourneyUITests.swift */,
+			);
+			path = SkippioFanUITests;
+			sourceTree = "<group>";
+		};
+		658EE24310475FD68373E598 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F766C475C09BF57A51239931 /* SkippioFan.app */,
+				72338112BAF6495068C140DD /* SkippioFanUITests.xctest */,
+				007C09BDD247FD4F66A254F4 /* SkippioFanWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A4E5DD5A277A81F76C72F4E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				D0100A02DADD465DBBED2D2B /* Auth */,
+				10AA256D56921C87C0659610 /* Cart */,
+				BD76112AEB3507F43870530F /* Home */,
+				0C86ABCC90B98DD58CDA3DB3 /* Map */,
+				74D80FEC0CF8BDE48E7636B5 /* Menu */,
+				327E001F960B03144A1C2020 /* Orders */,
+				C87597A17973A2916781277E /* Profile */,
+				199D8669A3D1B8FE71A8EDC0 /* Rewards */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		74D80FEC0CF8BDE48E7636B5 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				95069374B1494943A6093A76 /* MenuView.swift */,
+				767D3045239AA17783F4F664 /* OptionSheet.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		8F9178718AC8DC20A94946DD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				41C036FF29A304F10B328652 /* Components */,
+				D251387654AB8C181BBF7606 /* Theme */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		96A4C568F8CB86C8727A8745 /* SkippioFanShared */ = {
+			isa = PBXGroup;
+			children = (
+				AD2709E728A2141A93FDF2DC /* OrderActivityAttributes.swift */,
+			);
+			path = SkippioFanShared;
+			sourceTree = "<group>";
+		};
+		A78BCA9B8A1347AE741130DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF116ED5754238D8FDC4E02E /* Assets.xcassets */,
+				3B26162493C01098A9AB5BC1 /* README.md */,
+				A96FEBD913816476CB6C3D14 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A96FEBD913816476CB6C3D14 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AA76DF3D3720868660B5FEAE /* OFL.txt */,
+				10190F71EA068D812A16DD99 /* SourceSans3-Black.ttf */,
+				4CFDB0804DCB4C55BE7D9C64 /* SourceSans3-Bold.ttf */,
+				D02E5B9861E5E93E3009D134 /* SourceSans3-Regular.ttf */,
+				620AF09B2E81846B1968DB81 /* SourceSans3-Semibold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BD76112AEB3507F43870530F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EE6A6A409EAEE9F871E25108 /* HomeView.swift */,
+				E268F277B50D2198D62F0539 /* RestaurantSheets.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BF2024702BD0EE994F061CE1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				58577C932BBB198E8D1CC159 /* RootTabView.swift */,
+				1D14B198E922B56DF70C802F /* SkippioFanApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C87597A17973A2916781277E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FEC145D09469B2E94E9B8B7F /* ImageCreditsView.swift */,
+				BBF837C4C841829147238EE0 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D0100A02DADD465DBBED2D2B /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				47B8B2E32220AD81A4E51BC0 /* AuthView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		D251387654AB8C181BBF7606 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				543377F0C71F196F06DA1E11 /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		DD68CCF799DC890AB7C138A2 = {
+			isa = PBXGroup;
+			children = (
+				1D5E2EF175A8D6557DA29999 /* Config */,
+				287B854D27E3A29C43526137 /* SkippioFan */,
+				96A4C568F8CB86C8727A8745 /* SkippioFanShared */,
+				616290E6396C674C875F876C /* SkippioFanUITests */,
+				E3F99EABBA1463FAE401318F /* SkippioFanWidgets */,
+				658EE24310475FD68373E598 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3F99EABBA1463FAE401318F /* SkippioFanWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				1A82B2BC1EE595ABA94C6FED /* Info.plist */,
+				72F4236B38B09510035CAA2A /* OrderLiveActivityWidget.swift */,
+				D25C055108E0ADB926642142 /* SkippioFanWidgets.entitlements */,
+				63442D584E0F0263AE44EF0B /* SkippioFanWidgetsBundle.swift */,
+			);
+			path = SkippioFanWidgets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13D77E02CED098C2AD7BAF5F /* SkippioFanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5342ACD82C806460E5EA6FFD /* Build configuration list for PBXNativeTarget "SkippioFanUITests" */;
+			buildPhases = (
+				4A0A2049279C399E34D3B5D7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4837EE00077CAD2A881EA42 /* PBXTargetDependency */,
+			);
+			name = SkippioFanUITests;
+			packageProductDependencies = (
+			);
+			productName = SkippioFanUITests;
+			productReference = 72338112BAF6495068C140DD /* SkippioFanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		37A1E13F66578683E8A3F3A1 /* SkippioFan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AED059C046CD717ED956054 /* Build configuration list for PBXNativeTarget "SkippioFan" */;
+			buildPhases = (
+				66461C23CFD444B3876539B9 /* Sources */,
+				BE425E40D225A3898E2FB948 /* Resources */,
+				4118263981C0E862946A1276 /* Frameworks */,
+				D67EE0EF1A3AA957CCF31EDE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B312DA084D5771D2566DECB /* PBXTargetDependency */,
+			);
+			name = SkippioFan;
+			packageProductDependencies = (
+				44567BD8BD6360A2A8A1AFDC /* Supabase */,
+			);
+			productName = SkippioFan;
+			productReference = F766C475C09BF57A51239931 /* SkippioFan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F02155F44FE49513C8C9C440 /* SkippioFanWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A351A5290A776814B8F60942 /* Build configuration list for PBXNativeTarget "SkippioFanWidgets" */;
+			buildPhases = (
+				2CDB82CE6A672DAC08E61B42 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkippioFanWidgets;
+			packageProductDependencies = (
+			);
+			productName = SkippioFanWidgets;
+			productReference = 007C09BDD247FD4F66A254F4 /* SkippioFanWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D0EB20C97C8A746209750A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					13D77E02CED098C2AD7BAF5F = {
+						DevelopmentTeam = QNMJH73H6Y;
+						TestTargetID = 37A1E13F66578683E8A3F3A1;
+					};
+					37A1E13F66578683E8A3F3A1 = {
+						DevelopmentTeam = QNMJH73H6Y;
+					};
+					F02155F44FE49513C8C9C440 = {
+						DevelopmentTeam = QNMJH73H6Y;
+					};
+				};
+			};
+			buildConfigurationList = D763231D9162B1B39CCC6299 /* Build configuration list for PBXProject "SkippioFan" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = DD68CCF799DC890AB7C138A2;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DF06570CDA71315D8499C52D /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 658EE24310475FD68373E598 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37A1E13F66578683E8A3F3A1 /* SkippioFan */,
+				F02155F44FE49513C8C9C440 /* SkippioFanWidgets */,
+				13D77E02CED098C2AD7BAF5F /* SkippioFanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE425E40D225A3898E2FB948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1F71094C9DDEF7F9A728AF /* Assets.xcassets in Resources */,
+				FF3E59644F0BD52214A3870D /* OFL.txt in Resources */,
+				E30DCA1A48A65FE99C082AF7 /* README.md in Resources */,
+				CA77106616CE4BD93A359112 /* SourceSans3-Black.ttf in Resources */,
+				6F177887A98DE6F24B5CEEA7 /* SourceSans3-Bold.ttf in Resources */,
+				FFB9194FDC4D5E5D5645BE51 /* SourceSans3-Regular.ttf in Resources */,
+				D08E9B584688C3C8D1E30782 /* SourceSans3-Semibold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CDB82CE6A672DAC08E61B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D962382FA04E024DB168230 /* OrderActivityAttributes.swift in Sources */,
+				C98F0CCAA9056431552D4BA5 /* OrderLiveActivityWidget.swift in Sources */,
+				AC75D392808FB2CC4675F1A5 /* SkippioFanWidgetsBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0A2049279C399E34D3B5D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F42B5D51515D07AC9622CE /* FanJourneyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66461C23CFD444B3876539B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31321A8E67A61711A963504 /* AppTheme.swift in Sources */,
+				53D16697A1B53747B6D3D5B9 /* AuthStore.swift in Sources */,
+				DCE6EC574FC17698BFBDA696 /* AuthView.swift in Sources */,
+				A03C57AC444375E1FD470B66 /* CartStore.swift in Sources */,
+				4129B3EC59E5DBCEC2E43A51 /* CartView.swift in Sources */,
+				CE18F043F094DDE3A912C21A /* CheckoutCoordinator.swift in Sources */,
+				5B2CD0E17A75F466D75154C4 /* FavouritesStore.swift in Sources */,
+				09BA2DB49695A5C8C20535CD /* HomeView.swift in Sources */,
+				0FA05AF97B0EE5286B19869D /* ImageCreditsView.swift in Sources */,
+				5D75C84C35D6A92864DA4DC1 /* LocationProvider.swift in Sources */,
+				F4C0690B203248546FDD2A41 /* MenuView.swift in Sources */,
+				936BC0544E847AB3D3A81CAA /* Models.swift in Sources */,
+				BB70248E9A5D2D85A0926F2C /* OptionSheet.swift in Sources */,
+				7EC6E7452C0780A103BCF702 /* OrderActivityAttributes.swift in Sources */,
+				C74990D4447DB4E7DAAF1CB7 /* OrderLiveActivityController.swift in Sources */,
+				86B5D04675AD89AB4A89657B /* OrdersView.swift in Sources */,
+				7B7E8560113BBF63E33AC450 /* ProfileView.swift in Sources */,
+				80169ED4EB074EA7F46EAA28 /* Repositories.swift in Sources */,
+				2C9AE1334E31A70EB9F262A6 /* RestaurantSheets.swift in Sources */,
+				A9930C0EC0B15BC2AD64E7DF /* RewardsView.swift in Sources */,
+				FC37B129467278023D2ADC67 /* RootTabView.swift in Sources */,
+				5C3BF13AC2C49B6C4976C4DA /* SkippioFanApp.swift in Sources */,
+				0355BCABA6910E6F0FEF39DE /* SupabaseClientProvider.swift in Sources */,
+				3D16D0768D750A877A63ACD5 /* VenueComponents.swift in Sources */,
+				4DCFE55F5F4391AC3A7BA1ED /* VenueMapView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B312DA084D5771D2566DECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F02155F44FE49513C8C9C440 /* SkippioFanWidgets */;
+			targetProxy = 37877841B6CD0E30E3E49ADB /* PBXContainerItemProxy */;
+		};
+		F4837EE00077CAD2A881EA42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37A1E13F66578683E8A3F3A1 /* SkippioFan */;
+			targetProxy = 36C6AF1C57443CBD56CFA984 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		061073818E4F298FB3DC1FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51EEB2ED357E55A47BF2C867 /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SkippioFan/SkippioFan.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SkippioFan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SkippioDemo;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = SkippioDemo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		364C5D51CE8962C8F03D34D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohammadnaimi.skippiodemo.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkippioFan;
+			};
+			name = Release;
+		};
+		3C5F307106AFE03F4DB4456D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QNMJH73H6Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohammadnaimi.skippiodemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.10;
+			};
+			name = Debug;
+		};
+		4BBBA42001E576AC74A00FB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SkippioFanWidgets/SkippioFanWidgets.entitlements;
+				INFOPLIST_FILE = SkippioFanWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohammadnaimi.skippiodemo.widgets;
+				PRODUCT_NAME = SkippioDemoWidgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64F33E51F93DCEB9E6589662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohammadnaimi.skippiodemo.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkippioFan;
+			};
+			name = Debug;
+		};
+		6D59913BB598D40A23062C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SkippioFanWidgets/SkippioFanWidgets.entitlements;
+				INFOPLIST_FILE = SkippioFanWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohammadnaimi.skippiodemo.widgets;
+				PRODUCT_NAME = SkippioDemoWidgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1C44EFC65744A42A237A175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 678A7F346759E355CC89A746 /* Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SkippioFan/SkippioFan.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SkippioFan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SkippioDemo;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = SkippioDemo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3BD046A6F83280D21D4082C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QNMJH73H6Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohammadnaimi.skippiodemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.10;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AED059C046CD717ED956054 /* Build configuration list for PBXNativeTarget "SkippioFan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C44EFC65744A42A237A175 /* Debug */,
+				061073818E4F298FB3DC1FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5342ACD82C806460E5EA6FFD /* Build configuration list for PBXNativeTarget "SkippioFanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F33E51F93DCEB9E6589662 /* Debug */,
+				364C5D51CE8962C8F03D34D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A351A5290A776814B8F60942 /* Build configuration list for PBXNativeTarget "SkippioFanWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D59913BB598D40A23062C21 /* Debug */,
+				4BBBA42001E576AC74A00FB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D763231D9162B1B39CCC6299 /* Build configuration list for PBXProject "SkippioFan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5F307106AFE03F4DB4456D /* Debug */,
+				A3BD046A6F83280D21D4082C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF06570CDA71315D8499C52D /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		44567BD8BD6360A2A8A1AFDC /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF06570CDA71315D8499C52D /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9D0EB20C97C8A746209750A1 /* Project object */;
+}

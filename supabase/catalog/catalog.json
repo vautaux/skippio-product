@@ -1,0 +1,1892 @@
+{
+  "_comment": "Source of truth for demo venues, cafes and menus. scripts/build_catalog.py turns this into a SQL migration. Prices are cents. Invented content is marked in README.",
+  "venues": [
+    {
+      "key": "aviva",
+      "id": "d9d44e67-c936-4f45-8ec5-cfc0fd22cd11",
+      "name": "Aviva Stadium",
+      "address": "Lansdowne Rd, Dublin 4",
+      "city": "Dublin",
+      "country": "Ireland",
+      "subtitle": "Skip the queue at the bar",
+      "group": "Aviva",
+      "open": true,
+      "lat": 53.3352,
+      "lon": -6.2285,
+      "cover": "cover_aviva",
+      "price_offset": 0,
+      "points": [
+        {
+          "id": "19c565c1-cfaf-4348-88c5-592706f7fd7a",
+          "name": "Fast Track Bar",
+          "floor": "Floor 1",
+          "block": "Block 120",
+          "wait": 90
+        },
+        {
+          "name": "Concourse Kiosk",
+          "floor": "Floor 2",
+          "block": "Block 215",
+          "wait": 120
+        }
+      ]
+    },
+    {
+      "key": "fairyhouse",
+      "id": "6f0a1b52-3a4e-4b58-9d4e-0a6a5e1f2c01",
+      "name": "Fairyhouse Racecourse",
+      "address": "Ratoath, Co. Meath",
+      "city": "Ratoath",
+      "country": "Ireland",
+      "subtitle": "Race days",
+      "group": "Fairyhouse",
+      "open": false,
+      "lat": 53.5214,
+      "lon": -6.5465,
+      "cover": "cover_fairyhouse",
+      "price_offset": 10,
+      "points": [
+        {
+          "name": "Winners Enclosure Bar",
+          "floor": "Ground",
+          "block": "Enclosure",
+          "wait": 150
+        }
+      ]
+    },
+    {
+      "key": "laya",
+      "id": "6f0a1b52-3a4e-4b58-9d4e-0a6a5e1f2c02",
+      "name": "Laya Arena (RDS)",
+      "address": "Ballsbridge, Dublin 4",
+      "city": "Dublin",
+      "country": "Ireland",
+      "subtitle": "Concerts and events",
+      "group": "RDS",
+      "open": false,
+      "lat": 53.3263,
+      "lon": -6.229,
+      "cover": "cover_laya",
+      "price_offset": 10,
+      "points": [
+        {
+          "name": "Arena Bar",
+          "floor": "Floor 1",
+          "block": "Block B",
+          "wait": 120
+        }
+      ]
+    },
+    {
+      "key": "croke_park",
+      "name": "Croke Park",
+      "address": "St Joseph's Ave, Drumcondra, Dublin 3",
+      "city": "Dublin",
+      "country": "Ireland",
+      "subtitle": "GAA headquarters",
+      "group": "Croke Park",
+      "open": true,
+      "lat": 53.3609,
+      "lon": -6.2511,
+      "cover": "cover_croke_park",
+      "price_offset": 20,
+      "points": [
+        {
+          "name": "Hogan Stand Bar",
+          "floor": "Level 1",
+          "block": "Block 305",
+          "wait": 150
+        },
+        {
+          "name": "Cusack Stand Kiosk",
+          "floor": "Level 1",
+          "block": "Block 118",
+          "wait": 100
+        },
+        {
+          "name": "Canal End Bar",
+          "floor": "Ground",
+          "block": "Block 701",
+          "wait": 130
+        }
+      ]
+    },
+    {
+      "key": "pairc_ui_chaoimh",
+      "name": "Páirc Uí Chaoimh",
+      "address": "Ballintemple, Cork",
+      "city": "Cork",
+      "country": "Ireland",
+      "subtitle": "Home of Cork GAA",
+      "group": "Cork GAA",
+      "open": true,
+      "lat": 51.8948,
+      "lon": -8.4228,
+      "cover": "cover_pairc_ui_chaoimh",
+      "price_offset": 10,
+      "points": [
+        {
+          "name": "Main Stand Bar",
+          "floor": "Level 1",
+          "block": "Block B",
+          "wait": 120
+        },
+        {
+          "name": "Blackrock End Kiosk",
+          "floor": "Ground",
+          "block": "Block E",
+          "wait": 90
+        }
+      ]
+    },
+    {
+      "key": "thomond_park",
+      "name": "Thomond Park",
+      "address": "Cratloe Rd, Limerick",
+      "city": "Limerick",
+      "country": "Ireland",
+      "subtitle": "Munster Rugby",
+      "group": "Munster",
+      "open": true,
+      "lat": 52.6738,
+      "lon": -8.6481,
+      "cover": "cover_thomond_park",
+      "price_offset": 10,
+      "points": [
+        {
+          "name": "Old Stand Bar",
+          "floor": "Level 1",
+          "block": "Block 4",
+          "wait": 140
+        },
+        {
+          "name": "Alan Quinlan Stand Kiosk",
+          "floor": "Ground",
+          "block": "Block 9",
+          "wait": 100
+        }
+      ]
+    },
+    {
+      "key": "semple",
+      "name": "Semple Stadium",
+      "address": "Stadium Rd, Thurles, Co. Tipperary",
+      "city": "Thurles",
+      "country": "Ireland",
+      "subtitle": "Hurling's heartland",
+      "group": "Semple",
+      "open": true,
+      "lat": 52.6797,
+      "lon": -7.8135,
+      "cover": "cover_semple",
+      "price_offset": 0,
+      "points": [
+        {
+          "name": "Town End Bar",
+          "floor": "Ground",
+          "block": "Terrace A",
+          "wait": 120
+        }
+      ]
+    },
+    {
+      "key": "dalymount",
+      "name": "Dalymount Park",
+      "address": "Phibsborough, Dublin 7",
+      "city": "Dublin",
+      "country": "Ireland",
+      "subtitle": "Bohemians FC",
+      "group": "Dalymount",
+      "open": true,
+      "lat": 53.3579,
+      "lon": -6.279,
+      "cover": "cover_dalymount",
+      "price_offset": 0,
+      "points": [
+        {
+          "name": "Jodi Stand Bar",
+          "floor": "Ground",
+          "block": "Jodi Stand",
+          "wait": 90
+        },
+        {
+          "name": "Connaught Street Kiosk",
+          "floor": "Ground",
+          "block": "Connaught St End",
+          "wait": 80
+        }
+      ]
+    },
+    {
+      "key": "tallaght",
+      "name": "Tallaght Stadium",
+      "address": "Whitestown Way, Tallaght, Dublin 24",
+      "city": "Dublin",
+      "country": "Ireland",
+      "subtitle": "Shamrock Rovers",
+      "group": "Tallaght",
+      "open": true,
+      "lat": 53.2879,
+      "lon": -6.357,
+      "cover": "cover_tallaght",
+      "price_offset": 0,
+      "points": [
+        {
+          "name": "Main Stand Bar",
+          "floor": "Level 1",
+          "block": "Main Stand",
+          "wait": 100
+        }
+      ]
+    },
+    {
+      "key": "kingspan",
+      "name": "Kingspan Stadium",
+      "address": "Ravenhill Park, Belfast",
+      "city": "Belfast",
+      "country": "Northern Ireland",
+      "subtitle": "Ulster Rugby",
+      "group": "Ulster Rugby",
+      "open": true,
+      "lat": 54.5784,
+      "lon": -5.9085,
+      "cover": "cover_kingspan",
+      "price_offset": 20,
+      "points": [
+        {
+          "name": "West Stand Bar",
+          "floor": "Level 1",
+          "block": "Block W2",
+          "wait": 130
+        },
+        {
+          "name": "Memorial Kiosk",
+          "floor": "Ground",
+          "block": "Block M",
+          "wait": 90
+        }
+      ]
+    },
+    {
+      "key": "leopardstown",
+      "name": "Leopardstown Racecourse",
+      "address": "Leopardstown, Dublin 18",
+      "city": "Dublin",
+      "country": "Ireland",
+      "subtitle": "Christmas Festival",
+      "group": "Leopardstown",
+      "open": true,
+      "lat": 53.2733,
+      "lon": -6.1984,
+      "cover": "cover_leopardstown",
+      "price_offset": 20,
+      "points": [
+        {
+          "name": "Parade Ring Bar",
+          "floor": "Ground",
+          "block": "Grandstand",
+          "wait": 140
+        },
+        {
+          "name": "Winning Post Kiosk",
+          "floor": "Level 1",
+          "block": "Grandstand",
+          "wait": 100
+        }
+      ]
+    },
+    {
+      "key": "punchestown",
+      "name": "Punchestown Racecourse",
+      "address": "Naas, Co. Kildare",
+      "city": "Naas",
+      "country": "Ireland",
+      "subtitle": "Punchestown Festival",
+      "group": "Punchestown",
+      "open": false,
+      "lat": 53.1813,
+      "lon": -6.6576,
+      "cover": "cover_punchestown",
+      "price_offset": 10,
+      "points": [
+        {
+          "name": "Festival Bar",
+          "floor": "Ground",
+          "block": "Main Enclosure",
+          "wait": 150
+        }
+      ]
+    },
+    {
+      "key": "3arena",
+      "name": "3Arena",
+      "address": "North Wall Quay, Dublin 1",
+      "city": "Dublin",
+      "country": "Ireland",
+      "subtitle": "Concerts and live events",
+      "group": "3Arena",
+      "open": true,
+      "lat": 53.3478,
+      "lon": -6.2285,
+      "cover": "cover_3arena",
+      "price_offset": 30,
+      "points": [
+        {
+          "name": "Floor Bar",
+          "floor": "Floor",
+          "block": "Block F",
+          "wait": 150
+        },
+        {
+          "name": "Level 2 Bar",
+          "floor": "Level 2",
+          "block": "Block 210",
+          "wait": 120
+        },
+        {
+          "name": "VIP Lounge Bar",
+          "floor": "Level 3",
+          "block": "Block 301",
+          "wait": 60
+        }
+      ]
+    }
+  ],
+  "cafes": [
+    {
+      "key": "hypergoat_swords",
+      "id": "6f0a1b52-3a4e-4b58-9d4e-0a6a5e1f2c11",
+      "name": "Hypergoat Coffee - Swords",
+      "address": "Swords, Co. Dublin",
+      "city": "Swords",
+      "subtitle": "Specialty coffee",
+      "group": "Hypergoat",
+      "open": true,
+      "lat": 53.4597,
+      "lon": -6.2181,
+      "cover": "cafe_3",
+      "price_offset": 0
+    },
+    {
+      "key": "hypergoat_liberties",
+      "id": "6f0a1b52-3a4e-4b58-9d4e-0a6a5e1f2c12",
+      "name": "Hypergoat Coffee - The Liberties",
+      "address": "The Liberties, Dublin 8",
+      "city": "Dublin",
+      "subtitle": "Specialty coffee",
+      "group": "Hypergoat",
+      "open": false,
+      "lat": 53.3425,
+      "lon": -6.279,
+      "cover": "cafe_3",
+      "price_offset": 10
+    },
+    {
+      "key": "mortons",
+      "id": "6f0a1b52-3a4e-4b58-9d4e-0a6a5e1f2c13",
+      "name": "Morton's - Collection",
+      "address": "Dublin 6",
+      "city": "Dublin",
+      "subtitle": "Click and collect",
+      "group": "Morton's",
+      "open": false,
+      "lat": 53.326,
+      "lon": -6.256,
+      "cover": "cafe_2",
+      "price_offset": 0
+    },
+    {
+      "key": "guys_blackrock",
+      "id": "6f0a1b52-3a4e-4b58-9d4e-0a6a5e1f2c14",
+      "name": "Guys - Guys Blackrock",
+      "address": "Blackrock, Co. Dublin",
+      "city": "Blackrock",
+      "subtitle": "Coffee and bakes",
+      "group": "Guys",
+      "open": true,
+      "lat": 53.3015,
+      "lon": -6.178,
+      "cover": "cafe_1",
+      "price_offset": 0
+    },
+    {
+      "key": "harbour_roast",
+      "name": "Harbour Roast",
+      "address": "Harbour Rd, Dún Laoghaire",
+      "city": "Dún Laoghaire",
+      "subtitle": "Coffee by the sea",
+      "group": "Harbour Roast",
+      "open": true,
+      "lat": 53.2943,
+      "lon": -6.1356,
+      "cover": "cafe_4",
+      "price_offset": 10
+    },
+    {
+      "key": "daily_grind",
+      "name": "The Daily Grind",
+      "address": "Rathmines Rd, Dublin 6",
+      "city": "Dublin",
+      "subtitle": "Your morning stop",
+      "group": "Daily Grind",
+      "open": true,
+      "lat": 53.3224,
+      "lon": -6.265,
+      "cover": "cafe_1",
+      "price_offset": 0
+    },
+    {
+      "key": "common_grounds",
+      "name": "Common Grounds",
+      "address": "Oliver Plunkett St, Cork",
+      "city": "Cork",
+      "subtitle": "Cork's coffee corner",
+      "group": "Common Grounds",
+      "open": true,
+      "lat": 51.8985,
+      "lon": -8.47,
+      "cover": "cafe_2",
+      "price_offset": -10
+    },
+    {
+      "key": "saltwater",
+      "name": "Saltwater Coffee",
+      "address": "West Pier, Howth, Co. Dublin",
+      "city": "Howth",
+      "subtitle": "Coffee and sea air",
+      "group": "Saltwater",
+      "open": true,
+      "lat": 53.3937,
+      "lon": -6.0645,
+      "cover": "cafe_4",
+      "price_offset": 20
+    },
+    {
+      "key": "little_fox",
+      "name": "Little Fox Café",
+      "address": "Shop St, Galway",
+      "city": "Galway",
+      "subtitle": "Bakes and brews",
+      "group": "Little Fox",
+      "open": true,
+      "lat": 53.2719,
+      "lon": -9.054,
+      "cover": "cafe_1",
+      "price_offset": 0
+    },
+    {
+      "key": "copper_kettle",
+      "name": "Copper Kettle",
+      "address": "Manor St, Stoneybatter, Dublin 7",
+      "city": "Dublin",
+      "subtitle": "Tea and coffee house",
+      "group": "Copper Kettle",
+      "open": true,
+      "lat": 53.351,
+      "lon": -6.28,
+      "cover": "cafe_2",
+      "price_offset": -10
+    },
+    {
+      "key": "black_door",
+      "name": "Black Door Coffee",
+      "address": "Thomas St, Limerick",
+      "city": "Limerick",
+      "subtitle": "Small batch roasters",
+      "group": "Black Door",
+      "open": true,
+      "lat": 52.6638,
+      "lon": -8.6267,
+      "cover": "cafe_3",
+      "price_offset": 10
+    },
+    {
+      "key": "maple_rye",
+      "name": "Maple & Rye",
+      "address": "Ranelagh Village, Dublin 6",
+      "city": "Dublin",
+      "subtitle": "Brunch and coffee",
+      "group": "Maple & Rye",
+      "open": true,
+      "lat": 53.326,
+      "lon": -6.256,
+      "cover": "cafe_2",
+      "price_offset": 20
+    },
+    {
+      "key": "pier_nine",
+      "name": "Pier Nine Coffee",
+      "address": "Seafront, Bray, Co. Wicklow",
+      "city": "Bray",
+      "subtitle": "Seafront coffee",
+      "group": "Pier Nine",
+      "open": false,
+      "lat": 53.2028,
+      "lon": -6.0986,
+      "cover": "cafe_4",
+      "price_offset": 0
+    },
+    {
+      "key": "corner_cup",
+      "name": "The Corner Cup",
+      "address": "Drumcondra Rd, Dublin 9",
+      "city": "Dublin",
+      "subtitle": "Coffee near Croke Park",
+      "group": "Corner Cup",
+      "open": true,
+      "lat": 53.3688,
+      "lon": -6.2543,
+      "cover": "cafe_1",
+      "price_offset": -10
+    },
+    {
+      "key": "slate_sugar",
+      "name": "Slate & Sugar",
+      "address": "High St, Kilkenny",
+      "city": "Kilkenny",
+      "subtitle": "Cakes and coffee",
+      "group": "Slate & Sugar",
+      "open": true,
+      "lat": 52.6541,
+      "lon": -7.2448,
+      "cover": "cafe_2",
+      "price_offset": 0
+    },
+    {
+      "key": "moss_lane",
+      "name": "Moss Lane Café",
+      "address": "Sandymount Green, Dublin 4",
+      "city": "Dublin",
+      "subtitle": "Neighbourhood café",
+      "group": "Moss Lane",
+      "open": true,
+      "lat": 53.332,
+      "lon": -6.211,
+      "cover": "cafe_3",
+      "price_offset": 10
+    }
+  ],
+  "cafe_point": {
+    "name": "Counter",
+    "floor": "Ground",
+    "block": "Main counter",
+    "wait": 180
+  },
+  "cafe_menu": [
+    {
+      "title": "Coffee",
+      "items": [
+        {
+          "title": "Americano",
+          "sub": "Espresso with hot water",
+          "price": 380,
+          "image": "americano",
+          "allergens": [],
+          "options": true
+        },
+        {
+          "title": "Cappuccino",
+          "sub": "Espresso, steamed milk, foam",
+          "price": 430,
+          "image": "cappuccino",
+          "allergens": [
+            "Milk"
+          ],
+          "options": true
+        },
+        {
+          "title": "Cortado",
+          "sub": "Espresso cut with warm milk",
+          "price": 395,
+          "image": "cortado",
+          "allergens": [
+            "Milk"
+          ],
+          "options": true
+        },
+        {
+          "title": "Double Espresso",
+          "sub": "Two shots",
+          "price": 300,
+          "image": "double_espresso",
+          "allergens": []
+        },
+        {
+          "title": "Espresso",
+          "sub": "Single shot",
+          "price": 250,
+          "image": "espresso",
+          "allergens": []
+        },
+        {
+          "title": "Flat White",
+          "sub": "Double ristretto, silky milk",
+          "price": 420,
+          "image": "flat_white",
+          "allergens": [
+            "Milk"
+          ],
+          "options": true
+        },
+        {
+          "title": "Latte",
+          "sub": "Espresso with steamed milk",
+          "price": 430,
+          "image": "latte",
+          "allergens": [
+            "Milk"
+          ],
+          "options": true
+        },
+        {
+          "title": "Macchiato",
+          "sub": "Espresso with a dash of foam",
+          "price": 320,
+          "image": "macchiato",
+          "allergens": [
+            "Milk"
+          ]
+        },
+        {
+          "title": "Mocha",
+          "sub": "Espresso, chocolate, steamed milk",
+          "price": 470,
+          "image": "mocha",
+          "allergens": [
+            "Milk"
+          ],
+          "options": true
+        },
+        {
+          "title": "Hot Chocolate",
+          "sub": "Rich cocoa with steamed milk",
+          "price": 440,
+          "image": "hot_chocolate",
+          "allergens": [
+            "Milk"
+          ]
+        },
+        {
+          "title": "Chai Latte",
+          "sub": "Spiced tea with steamed milk",
+          "price": 450,
+          "image": "chai_latte",
+          "allergens": [
+            "Milk"
+          ]
+        },
+        {
+          "title": "Piccolo",
+          "sub": "Ristretto in a small glass of milk",
+          "price": 340,
+          "image": "piccolo",
+          "allergens": [
+            "Milk"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Iced Drinks",
+      "items": [
+        {
+          "title": "Iced Latte",
+          "sub": "Espresso, cold milk, ice",
+          "price": 470,
+          "image": "iced_latte",
+          "allergens": [
+            "Milk"
+          ]
+        },
+        {
+          "title": "Iced Americano",
+          "sub": "Espresso over ice",
+          "price": 410,
+          "image": "iced_americano",
+          "allergens": []
+        },
+        {
+          "title": "Iced Mocha",
+          "sub": "Chocolate, espresso, cold milk",
+          "price": 500,
+          "image": "iced_mocha",
+          "allergens": [
+            "Milk"
+          ]
+        },
+        {
+          "title": "Cold Brew",
+          "sub": "Steeped for 18 hours",
+          "price": 450,
+          "image": "cold_brew",
+          "allergens": []
+        },
+        {
+          "title": "Iced Matcha",
+          "sub": "Ceremonial matcha, cold milk",
+          "price": 520,
+          "image": "iced_matcha",
+          "allergens": [
+            "Milk"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Tea",
+      "items": [
+        {
+          "title": "Breakfast Tea",
+          "sub": "Classic black tea",
+          "price": 310,
+          "image": "breakfast_tea",
+          "allergens": []
+        },
+        {
+          "title": "Matcha",
+          "sub": "Matcha latte",
+          "price": 500,
+          "image": "matcha",
+          "allergens": [
+            "Milk"
+          ]
+        },
+        {
+          "title": "Green Tea",
+          "sub": "Light and fresh",
+          "price": 320,
+          "image": "green_tea",
+          "allergens": []
+        },
+        {
+          "title": "Peppermint Tea",
+          "sub": "Caffeine free",
+          "price": 320,
+          "image": "peppermint_tea",
+          "allergens": []
+        },
+        {
+          "title": "Earl Grey",
+          "sub": "Bergamot black tea",
+          "price": 320,
+          "image": "earl_grey",
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "title": "Pastries",
+      "items": [
+        {
+          "title": "Almond Croissant",
+          "sub": "Twice baked with frangipane",
+          "price": 490,
+          "image": "almond_croissant",
+          "allergens": [
+            "Gluten",
+            "Milk",
+            "Nuts",
+            "Eggs"
+          ]
+        },
+        {
+          "title": "Caramel Slice",
+          "sub": "Shortbread, caramel, chocolate",
+          "price": 420,
+          "image": "caramel_slice",
+          "allergens": [
+            "Gluten",
+            "Milk"
+          ],
+          "available": false
+        },
+        {
+          "title": "Croissant",
+          "sub": "All-butter",
+          "price": 480,
+          "image": "croissant",
+          "allergens": [
+            "Gluten",
+            "Milk",
+            "Eggs"
+          ]
+        },
+        {
+          "title": "Danish",
+          "sub": "Seasonal fruit pastry",
+          "price": 495,
+          "image": "danish",
+          "allergens": [
+            "Gluten",
+            "Milk",
+            "Eggs"
+          ]
+        },
+        {
+          "title": "Pain Au Chocolat",
+          "sub": "Butter pastry, dark chocolate",
+          "price": 450,
+          "image": "pain_au_chocolat",
+          "allergens": [
+            "Gluten",
+            "Milk",
+            "Eggs"
+          ]
+        },
+        {
+          "title": "Cinnamon Swirl",
+          "sub": "Baked daily",
+          "price": 430,
+          "image": "cinnamon_swirl",
+          "allergens": [
+            "Gluten",
+            "Milk",
+            "Eggs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Soft Drink",
+      "items": [
+        {
+          "title": "Craft Cola",
+          "sub": "Small batch cola",
+          "volume": "330ml",
+          "price": 400,
+          "image": "craft_cola",
+          "allergens": []
+        },
+        {
+          "title": "Lemon & Lime",
+          "sub": "Sparkling",
+          "volume": "330ml",
+          "price": 400,
+          "image": "lemon_lime",
+          "allergens": []
+        },
+        {
+          "title": "Ginger Beer",
+          "sub": "Fiery and dry",
+          "volume": "330ml",
+          "price": 400,
+          "image": "ginger_beer",
+          "allergens": []
+        },
+        {
+          "title": "Elderflower",
+          "sub": "Light and floral",
+          "volume": "330ml",
+          "price": 400,
+          "image": "elderflower",
+          "allergens": []
+        },
+        {
+          "title": "Blood Orange",
+          "sub": "Sparkling",
+          "volume": "330ml",
+          "price": 400,
+          "image": "blood_orange",
+          "allergens": []
+        },
+        {
+          "title": "Sparkling Water",
+          "sub": "Chilled",
+          "volume": "500ml",
+          "price": 300,
+          "image": "sparkling_water",
+          "allergens": []
+        },
+        {
+          "title": "Water",
+          "sub": "Still",
+          "volume": "500ml",
+          "price": 250,
+          "image": "water",
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "title": "Sandwiches",
+      "items": [
+        {
+          "title": "Ham & Cheese Toastie",
+          "sub": "Cheddar and honey roast ham",
+          "price": 650,
+          "image": "ham_cheese_toastie",
+          "allergens": [
+            "Gluten",
+            "Milk"
+          ]
+        },
+        {
+          "title": "Chicken Pesto",
+          "sub": "Roast chicken, basil pesto, rocket",
+          "price": 700,
+          "image": "chicken_pesto",
+          "allergens": [
+            "Gluten",
+            "Nuts",
+            "Milk"
+          ]
+        },
+        {
+          "title": "BLT",
+          "sub": "Bacon, lettuce, tomato",
+          "price": 680,
+          "image": "blt",
+          "allergens": [
+            "Gluten",
+            "Eggs"
+          ]
+        },
+        {
+          "title": "Tuna Melt",
+          "sub": "Tuna, cheddar, red onion",
+          "price": 690,
+          "image": "tuna_melt",
+          "allergens": [
+            "Gluten",
+            "Fish",
+            "Milk"
+          ]
+        },
+        {
+          "title": "Cheddar & Chutney",
+          "sub": "Mature cheddar, apple chutney",
+          "price": 600,
+          "image": "cheddar_chutney",
+          "allergens": [
+            "Gluten",
+            "Milk"
+          ]
+        },
+        {
+          "title": "Egg Mayo",
+          "sub": "Free-range egg, chives",
+          "price": 580,
+          "image": "egg_mayo",
+          "allergens": [
+            "Gluten",
+            "Eggs"
+          ]
+        },
+        {
+          "title": "Turkey Club",
+          "sub": "Turkey, bacon, tomato, lettuce",
+          "price": 750,
+          "image": "club_sandwich",
+          "allergens": [
+            "Gluten",
+            "Eggs"
+          ]
+        },
+        {
+          "title": "Veggie Hummus",
+          "sub": "Hummus, roast vegetables, spinach",
+          "price": 620,
+          "image": "veggie_hummus",
+          "allergens": [
+            "Gluten",
+            "Sesame"
+          ]
+        }
+      ]
+    }
+  ],
+  "venue_menu": [
+    {
+      "title": "Pints",
+      "legacy_sort": 1,
+      "items": [
+        {
+          "title": "Guinness",
+          "sub": "Classic stout",
+          "volume": "568ml",
+          "price": 770,
+          "image": "guinness",
+          "allergens": [
+            "Barley"
+          ]
+        },
+        {
+          "title": "Guinness 0.0",
+          "sub": "Alcohol free stout",
+          "volume": "568ml",
+          "price": 710,
+          "image": "guinness",
+          "allergens": [
+            "Barley"
+          ]
+        },
+        {
+          "title": "Carlsberg",
+          "sub": "Lager",
+          "volume": "568ml",
+          "price": 810,
+          "image": "lager",
+          "allergens": [
+            "Barley"
+          ]
+        },
+        {
+          "title": "Rockshore Lager",
+          "sub": "Lager",
+          "volume": "568ml",
+          "price": 810,
+          "image": "lager",
+          "allergens": [
+            "Barley"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Wine",
+      "items": [
+        {
+          "title": "Red Wine",
+          "sub": "Merlot",
+          "volume": "187ml",
+          "price": 880,
+          "image": "red_wine",
+          "allergens": [
+            "Sulphites"
+          ]
+        },
+        {
+          "title": "White Wine",
+          "sub": "Pinot Grigio",
+          "volume": "187ml",
+          "price": 880,
+          "image": "white_wine",
+          "allergens": [
+            "Sulphites"
+          ]
+        },
+        {
+          "title": "Prosecco",
+          "sub": "Sparkling",
+          "volume": "200ml",
+          "price": 950,
+          "image": "prosecco",
+          "allergens": [
+            "Sulphites"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Cans",
+      "items": [
+        {
+          "title": "Heineken",
+          "sub": "Lager",
+          "volume": "440ml",
+          "price": 790,
+          "image": "beer_can",
+          "allergens": [
+            "Barley"
+          ]
+        },
+        {
+          "title": "Corona",
+          "sub": "Lager",
+          "volume": "330ml",
+          "price": 750,
+          "image": "beer_bottle",
+          "allergens": [
+            "Barley"
+          ]
+        },
+        {
+          "title": "Bulmers",
+          "sub": "Irish cider",
+          "volume": "500ml",
+          "price": 800,
+          "image": "cider",
+          "allergens": [
+            "Sulphites"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Pre-mixed cans",
+      "items": [
+        {
+          "title": "Gin & Tonic",
+          "sub": "Pre-mixed",
+          "volume": "250ml",
+          "price": 850,
+          "image": "gin_tonic",
+          "allergens": []
+        },
+        {
+          "title": "Vodka & Cola",
+          "sub": "Pre-mixed",
+          "volume": "250ml",
+          "price": 850,
+          "image": "vodka_cola",
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "title": "Soft Drinks",
+      "items": [
+        {
+          "title": "Coca-Cola",
+          "sub": "Soft drink",
+          "volume": "500ml",
+          "price": 350,
+          "image": "craft_cola",
+          "allergens": []
+        },
+        {
+          "title": "Sprite",
+          "sub": "Soft drink",
+          "volume": "500ml",
+          "price": 350,
+          "image": "lemon_lime",
+          "allergens": []
+        },
+        {
+          "title": "Still Water",
+          "sub": "Water",
+          "volume": "500ml",
+          "price": 300,
+          "image": "water",
+          "allergens": []
+        },
+        {
+          "title": "Sparkling Water",
+          "sub": "Chilled",
+          "volume": "500ml",
+          "price": 300,
+          "image": "sparkling_water",
+          "allergens": []
+        },
+        {
+          "title": "Ginger Beer",
+          "sub": "Fiery and dry",
+          "volume": "330ml",
+          "price": 400,
+          "image": "ginger_beer",
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "title": "Sandwiches",
+      "items": [
+        {
+          "title": "Ham & Cheese Toastie",
+          "sub": "Cheddar and honey roast ham",
+          "price": 700,
+          "image": "ham_cheese_toastie",
+          "allergens": [
+            "Gluten",
+            "Milk"
+          ]
+        },
+        {
+          "title": "Chicken Pesto",
+          "sub": "Roast chicken, basil pesto, rocket",
+          "price": 750,
+          "image": "chicken_pesto",
+          "allergens": [
+            "Gluten",
+            "Nuts",
+            "Milk"
+          ]
+        },
+        {
+          "title": "Cheddar & Chutney",
+          "sub": "Mature cheddar, apple chutney",
+          "price": 650,
+          "image": "cheddar_chutney",
+          "allergens": [
+            "Gluten",
+            "Milk"
+          ]
+        },
+        {
+          "title": "Veggie Hummus",
+          "sub": "Hummus, roast vegetables, spinach",
+          "price": 670,
+          "image": "veggie_hummus",
+          "allergens": [
+            "Gluten",
+            "Sesame"
+          ]
+        }
+      ]
+    }
+  ],
+  "option_groups": {
+    "coffee_options": [
+      {
+        "title": "Size",
+        "required": true,
+        "multi": false,
+        "options": [
+          {
+            "title": "Regular",
+            "price": 0
+          },
+          {
+            "title": "Large",
+            "price": 50
+          }
+        ]
+      },
+      {
+        "title": "Milk",
+        "required": false,
+        "multi": false,
+        "options": [
+          {
+            "title": "Whole milk",
+            "price": 0
+          },
+          {
+            "title": "Oat milk",
+            "price": 50
+          },
+          {
+            "title": "Almond milk",
+            "price": 50
+          },
+          {
+            "title": "Skimmed milk",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "title": "Syrup",
+        "required": false,
+        "multi": true,
+        "options": [
+          {
+            "title": "Vanilla",
+            "price": 40
+          },
+          {
+            "title": "Caramel",
+            "price": 40
+          },
+          {
+            "title": "Hazelnut",
+            "price": 40
+          }
+        ]
+      }
+    ]
+  },
+  "promo_codes": [
+    {
+      "code": "SKIP10",
+      "type": "percentage",
+      "value": 10
+    },
+    {
+      "code": "WELCOME2",
+      "type": "fixed",
+      "value": 2.0
+    }
+  ],
+  "restaurant_point": {
+    "name": "Host stand",
+    "floor": "Ground",
+    "block": "Entrance",
+    "wait": 600
+  },
+  "restaurants": [
+    {
+      "key": "dragon_pearl",
+      "name": "Dragon Pearl",
+      "address": "Capel St, Dublin 1",
+      "city": "Dublin",
+      "subtitle": "Chinese · Szechuan & Cantonese",
+      "group": "Dragon Pearl",
+      "cuisine": "chinese",
+      "open": true,
+      "lat": 53.3489,
+      "lon": -6.2695,
+      "cover": "cafe_1",
+      "price_offset": 0
+    },
+    {
+      "key": "jade_garden",
+      "name": "Jade Garden",
+      "address": "George's St, Dun Laoghaire",
+      "city": "Dún Laoghaire",
+      "subtitle": "Chinese · Family favourites",
+      "group": "Jade Garden",
+      "cuisine": "chinese",
+      "open": true,
+      "lat": 53.294,
+      "lon": -6.135,
+      "cover": "cafe_2",
+      "price_offset": 20
+    },
+    {
+      "key": "cedar_grill",
+      "name": "Cedar Grill",
+      "address": "South Great George's St, Dublin 2",
+      "city": "Dublin",
+      "subtitle": "Middle Eastern · Grill & mezze",
+      "group": "Cedar Grill",
+      "cuisine": "middle_eastern",
+      "open": true,
+      "lat": 53.3415,
+      "lon": -6.2645,
+      "cover": "cafe_3",
+      "price_offset": 0
+    },
+    {
+      "key": "zaatar_house",
+      "name": "Zaatar House",
+      "address": "Clanbrassil St, Dublin 8",
+      "city": "Dublin",
+      "subtitle": "Middle Eastern · Shawarma",
+      "group": "Zaatar House",
+      "cuisine": "middle_eastern",
+      "open": true,
+      "lat": 53.3345,
+      "lon": -6.275,
+      "cover": "cafe_4",
+      "price_offset": -20
+    },
+    {
+      "key": "trattoria_luce",
+      "name": "Trattoria Luce",
+      "address": "Dawson St, Dublin 2",
+      "city": "Dublin",
+      "subtitle": "Italian · Pasta & pizza",
+      "group": "Trattoria Luce",
+      "cuisine": "italian",
+      "open": true,
+      "lat": 53.3408,
+      "lon": -6.2585,
+      "cover": "cafe_1",
+      "price_offset": 40
+    },
+    {
+      "key": "nonna_rosa",
+      "name": "Nonna Rosa",
+      "address": "Ranelagh Rd, Dublin 6",
+      "city": "Dublin",
+      "subtitle": "Italian · Homemade pasta",
+      "group": "Nonna Rosa",
+      "cuisine": "italian",
+      "open": false,
+      "lat": 53.3255,
+      "lon": -6.254,
+      "cover": "cafe_2",
+      "price_offset": 20
+    },
+    {
+      "key": "burst_burger",
+      "name": "Burst Burger",
+      "address": "Talbot St, Dublin 1",
+      "city": "Dublin",
+      "subtitle": "Fast food · Burgers",
+      "group": "Burst Burger",
+      "cuisine": "fast_food",
+      "open": true,
+      "lat": 53.3505,
+      "lon": -6.252,
+      "cover": "cafe_3",
+      "price_offset": 0
+    },
+    {
+      "key": "crisp_box",
+      "name": "Crisp Box",
+      "address": "Henry St, Dublin 1",
+      "city": "Dublin",
+      "subtitle": "Fast food · Fried chicken",
+      "group": "Crisp Box",
+      "cuisine": "fast_food",
+      "open": true,
+      "lat": 53.3494,
+      "lon": -6.261,
+      "cover": "cafe_4",
+      "price_offset": -10
+    },
+    {
+      "key": "spice_route",
+      "name": "Spice Route Kitchen",
+      "address": "Parnell St, Dublin 1",
+      "city": "Dublin",
+      "subtitle": "Middle Eastern · Sharing plates",
+      "group": "Spice Route",
+      "cuisine": "middle_eastern",
+      "open": true,
+      "lat": 53.352,
+      "lon": -6.2615,
+      "cover": "cafe_2",
+      "price_offset": 10
+    },
+    {
+      "key": "roma_slice",
+      "name": "Roma Slice",
+      "address": "Camden St, Dublin 2",
+      "city": "Dublin",
+      "subtitle": "Italian · Pizza by the slice",
+      "group": "Roma Slice",
+      "cuisine": "italian",
+      "open": true,
+      "lat": 53.334,
+      "lon": -6.2655,
+      "cover": "cafe_1",
+      "price_offset": 0
+    }
+  ],
+  "menu_chinese": [
+    {
+      "title": "Starters",
+      "items": [
+        {
+          "title": "Spring Rolls",
+          "sub": "Vegetable, sweet chilli",
+          "price": 650,
+          "image": "croissant",
+          "allergens": [
+            "Gluten",
+            "Soy"
+          ]
+        },
+        {
+          "title": "Chicken Wings",
+          "sub": "Salt & chilli",
+          "price": 850,
+          "image": "chicken_pesto",
+          "allergens": []
+        },
+        {
+          "title": "Prawn Toast",
+          "sub": "Sesame, fried",
+          "price": 900,
+          "image": "club_sandwich",
+          "allergens": [
+            "Gluten",
+            "Shellfish",
+            "Sesame"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mains",
+      "items": [
+        {
+          "title": "Sweet & Sour Chicken",
+          "sub": "Pineapple, pepper",
+          "price": 1450,
+          "image": "chicken_pesto",
+          "allergens": []
+        },
+        {
+          "title": "Beef Black Bean",
+          "sub": "Peppers, onion",
+          "price": 1550,
+          "image": "blt",
+          "allergens": [
+            "Soy"
+          ]
+        },
+        {
+          "title": "Kung Pao Tofu",
+          "sub": "Peanuts, chilli",
+          "price": 1350,
+          "image": "veggie_hummus",
+          "allergens": [
+            "Peanuts",
+            "Soy"
+          ]
+        },
+        {
+          "title": "Egg Fried Rice",
+          "sub": "Spring onion",
+          "price": 550,
+          "image": "egg_mayo",
+          "allergens": [
+            "Egg"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sides",
+      "items": [
+        {
+          "title": "Prawn Crackers",
+          "sub": "",
+          "price": 350,
+          "image": "water",
+          "allergens": [
+            "Shellfish"
+          ]
+        },
+        {
+          "title": "Chow Mein Noodles",
+          "sub": "Vegetable",
+          "price": 650,
+          "image": "veggie_hummus",
+          "allergens": [
+            "Gluten",
+            "Soy"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Drinks",
+      "items": [
+        {
+          "title": "Jasmine Tea",
+          "sub": "Pot",
+          "price": 350,
+          "image": "breakfast_tea",
+          "allergens": []
+        },
+        {
+          "title": "Coca-Cola",
+          "sub": "330ml",
+          "price": 300,
+          "image": "craft_cola",
+          "allergens": []
+        }
+      ]
+    }
+  ],
+  "menu_middle_eastern": [
+    {
+      "title": "Mezze",
+      "items": [
+        {
+          "title": "Hummus & Flatbread",
+          "sub": "Tahini, olive oil",
+          "price": 750,
+          "image": "veggie_hummus",
+          "allergens": [
+            "Sesame",
+            "Gluten"
+          ]
+        },
+        {
+          "title": "Falafel Plate",
+          "sub": "Pickles, tahini",
+          "price": 950,
+          "image": "veggie_hummus",
+          "allergens": [
+            "Sesame"
+          ]
+        },
+        {
+          "title": "Baba Ganoush",
+          "sub": "Smoked aubergine",
+          "price": 800,
+          "image": "egg_mayo",
+          "allergens": [
+            "Sesame"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grills",
+      "items": [
+        {
+          "title": "Chicken Shawarma Wrap",
+          "sub": "Garlic sauce, salad",
+          "price": 1250,
+          "image": "chicken_pesto",
+          "allergens": [
+            "Gluten"
+          ]
+        },
+        {
+          "title": "Lamb Kofta",
+          "sub": "Two skewers, rice",
+          "price": 1650,
+          "image": "blt",
+          "allergens": []
+        },
+        {
+          "title": "Mixed Grill",
+          "sub": "Chicken, lamb, salad",
+          "price": 1950,
+          "image": "club_sandwich",
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "title": "Sides",
+      "items": [
+        {
+          "title": "Tabbouleh",
+          "sub": "",
+          "price": 550,
+          "image": "veggie_hummus",
+          "allergens": [
+            "Gluten"
+          ]
+        },
+        {
+          "title": "Chips",
+          "sub": "",
+          "price": 400,
+          "image": "water",
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "title": "Drinks",
+      "items": [
+        {
+          "title": "Mint Lemonade",
+          "sub": "",
+          "price": 450,
+          "image": "lemon_lime",
+          "allergens": []
+        },
+        {
+          "title": "Still Water",
+          "sub": "500ml",
+          "price": 250,
+          "image": "water",
+          "allergens": []
+        }
+      ]
+    }
+  ],
+  "menu_italian": [
+    {
+      "title": "Starters",
+      "items": [
+        {
+          "title": "Bruschetta",
+          "sub": "Tomato, basil",
+          "price": 850,
+          "image": "croissant",
+          "allergens": [
+            "Gluten"
+          ]
+        },
+        {
+          "title": "Caprese",
+          "sub": "Mozzarella, tomato",
+          "price": 950,
+          "image": "egg_mayo",
+          "allergens": [
+            "Milk"
+          ]
+        },
+        {
+          "title": "Garlic Bread",
+          "sub": "With mozzarella",
+          "price": 650,
+          "image": "croissant",
+          "allergens": [
+            "Gluten",
+            "Milk"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mains",
+      "items": [
+        {
+          "title": "Margherita Pizza",
+          "sub": "12 inch",
+          "price": 1450,
+          "image": "croissant",
+          "allergens": [
+            "Gluten",
+            "Milk"
+          ]
+        },
+        {
+          "title": "Spaghetti Carbonara",
+          "sub": "Guanciale, pecorino",
+          "price": 1650,
+          "image": "tuna_melt",
+          "allergens": [
+            "Gluten",
+            "Egg",
+            "Milk"
+          ]
+        },
+        {
+          "title": "Penne Arrabbiata",
+          "sub": "Chilli tomato",
+          "price": 1350,
+          "image": "veggie_hummus",
+          "allergens": [
+            "Gluten"
+          ]
+        },
+        {
+          "title": "Chicken Milanese",
+          "sub": "Salad, lemon",
+          "price": 1750,
+          "image": "chicken_pesto",
+          "allergens": [
+            "Gluten",
+            "Egg"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sides",
+      "items": [
+        {
+          "title": "Rocket & Parmesan",
+          "sub": "",
+          "price": 550,
+          "image": "veggie_hummus",
+          "allergens": [
+            "Milk"
+          ]
+        },
+        {
+          "title": "Olives",
+          "sub": "",
+          "price": 450,
+          "image": "water",
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "title": "Drinks",
+      "items": [
+        {
+          "title": "San Pellegrino",
+          "sub": "Orange",
+          "price": 350,
+          "image": "lemon_lime",
+          "allergens": []
+        },
+        {
+          "title": "House Red Wine",
+          "sub": "Glass",
+          "price": 750,
+          "image": "red_wine",
+          "allergens": [
+            "Sulphites"
+          ]
+        }
+      ]
+    }
+  ],
+  "menu_fast_food": [
+    {
+      "title": "Burgers & Mains",
+      "items": [
+        {
+          "title": "Classic Burger",
+          "sub": "Cheese, sauce, salad",
+          "price": 1190,
+          "image": "blt",
+          "allergens": [
+            "Gluten",
+            "Milk"
+          ]
+        },
+        {
+          "title": "Chicken Burger",
+          "sub": "Crispy fillet",
+          "price": 1250,
+          "image": "chicken_pesto",
+          "allergens": [
+            "Gluten"
+          ]
+        },
+        {
+          "title": "Veggie Burger",
+          "sub": "Plant patty",
+          "price": 1150,
+          "image": "veggie_hummus",
+          "allergens": [
+            "Gluten"
+          ]
+        },
+        {
+          "title": "Fried Chicken Box",
+          "sub": "4 pieces",
+          "price": 1350,
+          "image": "chicken_pesto",
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "title": "Sides",
+      "items": [
+        {
+          "title": "Fries",
+          "sub": "Regular",
+          "price": 390,
+          "image": "water",
+          "allergens": []
+        },
+        {
+          "title": "Onion Rings",
+          "sub": "",
+          "price": 450,
+          "image": "croissant",
+          "allergens": [
+            "Gluten"
+          ]
+        },
+        {
+          "title": "Coleslaw",
+          "sub": "",
+          "price": 300,
+          "image": "egg_mayo",
+          "allergens": [
+            "Egg"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Drinks",
+      "items": [
+        {
+          "title": "Coca-Cola",
+          "sub": "330ml",
+          "price": 300,
+          "image": "craft_cola",
+          "allergens": []
+        },
+        {
+          "title": "Sprite",
+          "sub": "330ml",
+          "price": 300,
+          "image": "lemon_lime",
+          "allergens": []
+        },
+        {
+          "title": "Milkshake",
+          "sub": "Vanilla",
+          "price": 550,
+          "image": "latte",
+          "allergens": [
+            "Milk"
+          ]
+        }
+      ]
+    }
+  ]
+}

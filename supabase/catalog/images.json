@@ -1,0 +1,285 @@
+{
+  "_comment": "key -> Commons search query. After review, 'file' pins the chosen Commons file (e.g. 'File:Foo.jpg'). Only CC0, public domain, CC BY and CC BY-SA files are accepted.",
+  "images": {
+    "americano": {
+      "query": "americano coffee cup",
+      "file": "File:A cup of Americano in Lano Coffee (Palembang, SS).jpg"
+    },
+    "cappuccino": {
+      "query": "cappuccino cup",
+      "file": "File:Cappuccino-cup 20230110 104449.jpg"
+    },
+    "flat_white": {
+      "query": "flat white coffee",
+      "file": "File:Flat white coffee Highgate Cricket Club, Crouch End, London 01.jpg"
+    },
+    "latte": {
+      "query": "caffe latte latte art",
+      "file": "File:Perfect caffe latte from Cafe Coffee Day.jpg"
+    },
+    "cortado": {
+      "query": "cortado coffee glass",
+      "file": "File:Flat White 1.jpg"
+    },
+    "espresso": {
+      "query": "espresso cup crema",
+      "file": "File:Double Espresso Shot in a Demitasse.jpg"
+    },
+    "double_espresso": {
+      "query": "double espresso",
+      "file": "File:Double espresso (2259728230).jpg"
+    },
+    "macchiato": {
+      "query": "espresso macchiato",
+      "file": "File:Espresso macchiato Chiang Mai.JPG"
+    },
+    "mocha": {
+      "query": "caffe mocha cup",
+      "file": "File:Caffe-Latte-Prague.JPG"
+    },
+    "hot_chocolate": {
+      "query": "hot chocolate mug",
+      "file": "File:Dark Hot Chocolate, San Churro Leederville, 2026 (02).jpg"
+    },
+    "chai_latte": {
+      "query": "chai latte",
+      "file": "File:Chai Latte - The Flour Pot Bakery 2026-05-20.jpg"
+    },
+    "piccolo": {
+      "query": "small latte glass coffee",
+      "file": "File:Macchiato FourBarrel.jpg"
+    },
+    "iced_latte": {
+      "query": "iced coffee latte glass straw",
+      "file": "File:Iced coffee gm.jpg"
+    },
+    "iced_americano": {
+      "query": "iced coffee glass ice black",
+      "file": "File:Iced coffee (Eiskaffee).jpg"
+    },
+    "iced_mocha": {
+      "query": "iced coffee",
+      "file": "File:Iced Coffee 20240730-135859.jpg"
+    },
+    "cold_brew": {
+      "query": "cold brew coffee",
+      "file": "File:Maple Cream Cold Brew - Trading Post Coffee Roasters 2026-07-16.jpg"
+    },
+    "iced_matcha": {
+      "query": "iced matcha latte",
+      "file": "File:Iced Hojicha Latte and Iced Matcha Latte - Rawlab Juice & Tea 2025-07-12.jpg"
+    },
+    "breakfast_tea": {
+      "query": "cup of black tea",
+      "file": "File:A cup of black tea from Srimangal Bangladesh.jpg"
+    },
+    "matcha": {
+      "query": "matcha latte",
+      "file": "File:Matcha tea latte with rosetta latte art.jpg"
+    },
+    "green_tea": {
+      "query": "green tea cup",
+      "file": "File:White cup with green tea in it.jpg"
+    },
+    "peppermint_tea": {
+      "query": "peppermint tea cup",
+      "file": "File:Peppermint-tea hg.jpg"
+    },
+    "earl_grey": {
+      "query": "earl grey tea cup",
+      "file": "File:Frisch aufgebrühter EarlGrey Tee.jpg"
+    },
+    "almond_croissant": {
+      "query": "almond croissant",
+      "file": "File:Chocolate & almond croissant - GAIL's 2024-07-14.jpg"
+    },
+    "croissant": {
+      "query": "croissant plate",
+      "file": "File:Almond Croissant - Caffè Nero 2026-05-28.jpg"
+    },
+    "danish": {
+      "query": "danish pastry",
+      "file": "File:Danish - 29785349265.jpg"
+    },
+    "pain_au_chocolat": {
+      "query": "pain au chocolat",
+      "file": "File:Pain au chocolat Luc Viatour.jpg"
+    },
+    "caramel_slice": {
+      "query": "millionaire shortbread caramel slice",
+      "file": "File:Aussie caramel slice (cropped).jpg"
+    },
+    "cinnamon_swirl": {
+      "query": "cinnamon roll swirl",
+      "file": "File:Cinnamon bun - Milfey Patisserie 2026-08-31.jpg"
+    },
+    "craft_cola": {
+      "query": "glass of cola ice",
+      "file": "File:Glass of Cola.jpg"
+    },
+    "lemon_lime": {
+      "query": "lemonade glass lime",
+      "file": "File:Limeade.jpg"
+    },
+    "ginger_beer": {
+      "query": "ginger beer glass",
+      "file": "File:Korfiotisches Ingwerbier 01.jpg"
+    },
+    "elderflower": {
+      "query": "elderflower drink glass",
+      "file": "File:Moscow Mule Highball glass.jpg"
+    },
+    "blood_orange": {
+      "query": "blood orange juice glass",
+      "file": "File:Bloodorange1.jpg"
+    },
+    "sparkling_water": {
+      "query": "sparkling water glass",
+      "file": "File:Sparkling Water with Mint in Glass Cup.jpg"
+    },
+    "water": {
+      "query": "glass of water",
+      "file": "File:Fasting 4-Fasting-a-glass-of-water-on-an-empty-plate.jpg"
+    },
+    "ham_cheese_toastie": {
+      "query": "ham and cheese toasted sandwich",
+      "file": "File:Ham & cheese toasted sandwich - Potatoast 2026-05-02.jpg"
+    },
+    "chicken_pesto": {
+      "query": "chicken sandwich",
+      "file": "File:Chicken sandwich.jpg"
+    },
+    "blt": {
+      "query": "BLT sandwich",
+      "file": "File:Mmm... BLT for me! (5487341380).jpg"
+    },
+    "tuna_melt": {
+      "query": "tuna melt sandwich",
+      "file": "File:Tuna melt sandwich with fries.jpg"
+    },
+    "cheddar_chutney": {
+      "query": "cheese sandwich",
+      "file": "File:Lunch at St James Cheese Company, Prytania Street, Uptown New Orleans, May 2019 04.jpg"
+    },
+    "egg_mayo": {
+      "query": "egg salad sandwich",
+      "file": "File:Egg salad sandwich - cropped.jpg"
+    },
+    "club_sandwich": {
+      "query": "club sandwich",
+      "file": "File:Club sandwiches in hong kong.jpg"
+    },
+    "veggie_hummus": {
+      "query": "vegetable wrap sandwich",
+      "file": "File:Врап со пилешко зелечук и кајгана.jpg"
+    },
+    "guinness": {
+      "query": "pint of Guinness",
+      "file": "File:A pint of Guinness.jpg"
+    },
+    "lager": {
+      "query": "pint of lager",
+      "file": "File:Sorrento Lager, Sorrento Beach Club, 2026 (01).jpg"
+    },
+    "beer_can": {
+      "query": "beer can",
+      "file": "File:Can of beer, Goofy Friends, Hoppy Weizen by Brouwerij Kees.jpg"
+    },
+    "beer_bottle": {
+      "query": "beer bottle lager",
+      "file": "File:Mythos Lager Beer PL.JPG"
+    },
+    "cider": {
+      "query": "cider glass pint",
+      "file": "File:Bulmerscider.jpg"
+    },
+    "red_wine": {
+      "query": "glass of red wine",
+      "file": "File:020260524 140002 Red wine in glass.jpg"
+    },
+    "white_wine": {
+      "query": "glass of white wine",
+      "file": "File:Red and white wine in glass.jpg"
+    },
+    "prosecco": {
+      "query": "prosecco glass",
+      "file": "File:Prosecco di Conegliano bottle and glass.jpg"
+    },
+    "gin_tonic": {
+      "query": "gin and tonic glass",
+      "file": "File:Gin and tonic with lime.jpg"
+    },
+    "vodka_cola": {
+      "query": "cola cocktail highball",
+      "file": "File:Cuba Libre 00.jpg"
+    },
+    "cover_aviva": {
+      "query": "Aviva Stadium Dublin",
+      "file": "File:Aviva Stadium(Dublin Arena).JPG"
+    },
+    "cover_fairyhouse": {
+      "query": "Fairyhouse Racecourse",
+      "file": "File:Horse Racing at Fairyhouse.jpg"
+    },
+    "cover_laya": {
+      "query": "RDS Main Arena Dublin",
+      "file": "File:Dublin Horse Show 2008 - main arena.jpg"
+    },
+    "cover_croke_park": {
+      "query": "Croke Park stadium",
+      "file": "File:Croke Park, Dublin.jpg"
+    },
+    "cover_pairc_ui_chaoimh": {
+      "query": "Páirc Uí Chaoimh",
+      "file": "File:Cork stadium.JPG"
+    },
+    "cover_thomond_park": {
+      "query": "Thomond Park stadium",
+      "file": "File:Thomond Park by night (cropped).jpg"
+    },
+    "cover_semple": {
+      "query": "Semple Stadium Thurles",
+      "file": "File:15 June 2015, Semple Stadium, Thurles 6.jpg"
+    },
+    "cover_dalymount": {
+      "query": "Dalymount Park",
+      "file": "File:Bohemians-Football-Club-Dalymount-Park-Entrance-2012.JPG"
+    },
+    "cover_tallaght": {
+      "query": "Tallaght Stadium",
+      "file": "File:The Tallaght Stadium (2017).jpg"
+    },
+    "cover_kingspan": {
+      "query": "Kingspan Stadium Ravenhill Belfast",
+      "file": "File:Ravenhill new Stand.jpg"
+    },
+    "cover_leopardstown": {
+      "query": "Leopardstown Racecourse",
+      "file": "File:LepRacecourse.JPG"
+    },
+    "cover_punchestown": {
+      "query": "Punchestown Racecourse",
+      "file": "File:Punchestown races 2009.jpg"
+    },
+    "cover_3arena": {
+      "query": "3Arena Dublin",
+      "file": "File:O2 Dublin frontage, 2009.jpg"
+    },
+    "cafe_1": {
+      "query": "coffee shop interior counter",
+      "file": "File:Junction Coffee interior Oklahoma City 2025-12-06 11-07-12 1.jpg"
+    },
+    "cafe_2": {
+      "query": "cafe interior tables",
+      "file": "File:Interior of 1UP Cafe 2024-02-18.jpg"
+    },
+    "cafe_3": {
+      "query": "barista espresso machine cafe",
+      "file": "File:-2019-11-08 Coffee barista inside Cafe Main, Church Street, Cromer.JPG"
+    },
+    "cafe_4": {
+      "query": "coffee shop window",
+      "file": "File:Light bulbs in a coffee shop (Unsplash).jpg"
+    }
+  }
+}

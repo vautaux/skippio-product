@@ -1,0 +1,43 @@
+project_id = "skippio-product"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+shadow_port = 54320
+major_version = 15
+
+[db.seed]
+enabled = true
+sql_paths = ["./seed.sql"]
+
+[realtime]
+enabled = true
+
+[studio]
+enabled = true
+port = 54323
+
+[auth]
+enabled = true
+site_url = "skippiodemo://auth-callback"
+additional_redirect_urls = ["skippiodemo://auth-callback"]
+jwt_expiry = 3600
+
+# Stripe and the browser redirect can't send a Supabase JWT. The webhook proves
+# authenticity with Stripe's signature instead; checkout-return only redirects.
+[functions.stripe-webhook]
+verify_jwt = false
+
+[functions.checkout-return]
+verify_jwt = false
+
+[edge_runtime]
+enabled = true
+policy = "per_worker"
+inspector_port = 8083

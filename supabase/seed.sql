@@ -1,0 +1,2 @@
+-- Demo data (venues, Aviva Stadium menu) now lives in migrations so that remote
+-- projects and local resets end up identical. Nothing to seed here.

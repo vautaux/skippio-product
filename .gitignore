@@ -1,0 +1,28 @@
+.DS_Store
+.env
+.env.local
+.env.*.local
+
+# Supabase
+.supabase
+
+# Xcode / Swift
+DerivedData/
+ios/SkippioFan/build/
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+
+# Node / tooling
+node_modules/
+dist/
+coverage/
+__pycache__/
+*.pyc
+
+# Local Supabase CLI cache
+supabase/.temp/
+
+# iOS build settings hold the project URL and anon key
+ios/SkippioFan/Config/Debug.xcconfig
+ios/SkippioFan/Config/Release.xcconfig
